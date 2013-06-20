@@ -1,0 +1,26 @@
+{
+  "name": "versionify",
+  "version": "0.0.0",
+  "description": "Ensure the version number of a package is always updated.",
+  "main": "index.js",
+  "bin": "./bin/cli.js",
+  "dependencies": {
+    "minimatch": "~0.2.12",
+    "commander": "~1.2.0",
+    "read": "~1.0.4",
+    "semver": "~2.0.1"
+  },
+  "devDependencies": {
+    "linify": "~1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "linify transform ./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/versionify.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
