@@ -5,8 +5,6 @@
   "main": "index.js",
   "bin": "./bin/cli.js",
   "dependencies": {
-    "minimatch": "~0.2.12",
-    "commander": "~1.2.0",
     "read": "~1.0.4",
     "semver": "~2.0.1"
   },
