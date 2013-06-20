@@ -1,6 +1,6 @@
 {
   "name": "versionify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensure the version number of a package is always updated.",
   "main": "index.js",
   "bin": "./bin/cli.js",
