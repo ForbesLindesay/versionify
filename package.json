@@ -6,7 +6,7 @@
   "bin": "./bin/cli.js",
   "dependencies": {
     "read": "~1.0.4",
-    "semver": "~2.0.1"
+    "semver": "~5.3.0"
   },
   "devDependencies": {
     "linify": "~1.0.1"
