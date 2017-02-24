@@ -1,5 +1,7 @@
 # Versionify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/versionify.svg)](https://greenkeeper.io/)
+
 Ensure the version number of a package is always updated.  This keeps track of the version the last time `versionify` was run by adding a `versionify` field to package.json.  If the `versionify` field is less than the `version` field it prompts the user for an updated version.
 
 ## Installation
